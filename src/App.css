@@ -7,5 +7,6 @@
 }
 
 :root {
-  /* --mainColor: #29335C */
+  --mainBgColor: rgb(242, 245, 234);
+  --mainTxtColor: rgb(87, 86, 86);
 }
