@@ -3,6 +3,8 @@ import { useRef } from "react";
 import "./Navbar.css";
 import { IoMdMenu } from "react-icons/io";
 import { MdClose } from "react-icons/md";
+import { NavLink } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 const Navbar = () => {
   const navRef = useRef();
@@ -15,12 +17,28 @@ const Navbar = () => {
       <div className="navbar-container">
         <h3 className="navbar-logo-h3">Anna.</h3>
         <nav ref={navRef}>
-          <a className="nav-link" href="/#">
+          <LinkS
+            to=""
+            smooth="true"
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            className="nav-link"
+          >
             Home
-          </a>
-          <a className="nav-link" href="/#">
+          </LinkS>
+          <LinkS
+            to="techstack"
+            smooth="true"
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            className="nav-link"
+          >
             Tech stack
-          </a>
+          </LinkS>
           <a className="nav-link" href="/#">
             Portfolio
           </a>

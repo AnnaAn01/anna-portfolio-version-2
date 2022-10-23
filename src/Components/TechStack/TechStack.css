@@ -1,0 +1,119 @@
+.techstack__container {
+  background-color: rgb(44, 54, 63);
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: var(--mainBgColor);
+  width: 100%;
+}
+
+.techstack__wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0 20rem;
+  /* margin: 0 15vw; */
+  /* background-color: red; */
+  /* margin-top: 6rem; */
+  padding-top: 5rem;
+}
+
+.techstack__columns {
+  flex: 50%;
+}
+
+.techstack__title-area {
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+.techstack__title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  /* color: var(--mainTxtColor); */
+  letter-spacing: 2px;
+}
+
+.techstack__divider-line {
+  width: 12rem;
+  height: 0.5rem;
+  background-color: var(--mainBgColor);
+  margin: 0rem 0 2rem 0;
+}
+
+.techstack__follow-btn {
+  border-radius: 50%;
+  margin-top: 3rem;
+  border: none;
+  background-color: var(--mainBgColor);
+  padding: 1rem;
+  width: 10rem;
+  height: 10rem;
+  /* color: white; */
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 0 0 2px var(--mainBgColor);
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+}
+
+.techstack__follow-btn:hover {
+  background-color: rgb(84, 99, 112);
+  color: white;
+  border: 1px solid white;
+}
+
+.techstack__list-area {
+  /* padding-left: 5rem; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+  margin-top: 2rem;
+  height: auto;
+  padding-bottom: 5rem;
+}
+
+.techstack__item-wrapper {
+  height: 100%;
+  width: 10rem;
+  /* background-color: rgb(55, 134, 134); */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.techstack__item-title {
+  /* background-color: red; */
+  height: auto;
+  font-size: 2rem;
+  z-index: 1000;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1.5px;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+  /* justify-content: center;
+  align-items: center;
+  text-align: center; */
+}
+
+.techstack__icon-html,
+.techstack__icon-css,
+.techstack__icon-js,
+.techstack__icon-react,
+.techstack__icon-node,
+.techstack__icon-sass,
+.techstack__icon-github,
+.techstack__icon-styled-comp {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 6rem;
+}
