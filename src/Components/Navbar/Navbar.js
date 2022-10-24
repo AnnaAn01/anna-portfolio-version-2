@@ -1,3 +1,24 @@
+// import React, { useState } from "react";
+// import { FaBars, FaTimes } from "react-icons/fa";
+// // import logo from "./images/logo.png";
+
+// import "./Navbar.css";
+
+// const Navbar = () => {
+//   const [click, setClick] = useState(false);
+//   const handleClick = () => setClick(!click);
+
+//   const closeMenu = () => setClick(false);
+
+//   return (
+//     <div className="header">
+//       <nav className="navbar"></nav>
+//     </div>
+//   );
+// };
+
+// export default Navbar;
+
 import React from "react";
 import { useRef } from "react";
 import "./Navbar.css";
@@ -18,10 +39,24 @@ const Navbar = () => {
       <div className="navbar-container">
         <h3 className="navbar-logo-h3">Anna.</h3>
         <nav ref={navRef}>
-          <LinkR to="/" className="nav-link">
+          <LinkS
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav-link"
+          >
             Home
-          </LinkR>
-          <LinkR to="/techstack" className="nav-link">
+          </LinkS>
+          <LinkR
+            to="#techstack"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav-link"
+          >
             Tech stack
           </LinkR>
           <a className="nav-link" href="/#">
