@@ -3,11 +3,10 @@
 
   position: fixed;
   align-items: center;
-  /* justify-content: space-between; */
   height: 8rem;
   width: 100%;
   padding: 0 2rem;
-  /* background-color: rgba(242, 245, 234, 0.7); */
+
   background-color: rgba(242, 245, 234);
   border-bottom: 2.2px groove rgba(87, 86, 86, 0.4);
   font-size: 3rem;
@@ -27,7 +26,6 @@
 .navbar-logo-h3 {
   font-size: 2.5rem;
   color: var(--mainTxtColor);
-  /* background-color: red; */
 }
 nav {
   align-items: center;
