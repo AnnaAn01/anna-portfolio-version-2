@@ -9,8 +9,6 @@
   padding: 0 2rem;
   /* background-color: rgba(242, 245, 234, 0.7); */
   background-color: rgba(242, 245, 234);
-  /* background-color: var(--mainBgColor); */
-  /* box-shadow: 0 4px 2px -3px rgb(87, 86, 86); */
   border-bottom: 2.2px groove rgba(87, 86, 86, 0.4);
   font-size: 3rem;
   z-index: 100;
@@ -19,9 +17,6 @@
 .navbar-container {
   display: flex;
   width: 100%;
-  /* background-color: red; */
-  /* margin: 0 10rem; */
-  /* margin: 0 18rem; */
   margin: 0 14vw;
   margin: 18rem;
   align-items: center;
