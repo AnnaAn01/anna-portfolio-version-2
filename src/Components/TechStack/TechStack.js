@@ -13,7 +13,7 @@ import {
 
 const TechStack = () => {
   return (
-    <section className="techstack__container">
+    <section className="techstack__container" id="teckstack">
       <div className="techstack__wrapper">
         <div className="techstack__columns techstack__title-area">
           <div className="techstack__divider-line"></div>

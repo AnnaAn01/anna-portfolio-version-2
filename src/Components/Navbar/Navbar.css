@@ -43,6 +43,10 @@ nav {
   cursor: pointer;
 }
 
+.nav-link .active {
+  color: red;
+}
+
 .nav-link:hover {
   color: rgb(87, 86, 86);
 }

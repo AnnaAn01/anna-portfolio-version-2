@@ -1,26 +1,5 @@
-// import React, { useState } from "react";
-// import { FaBars, FaTimes } from "react-icons/fa";
-// // import logo from "./images/logo.png";
-
-// import "./Navbar.css";
-
-// const Navbar = () => {
-//   const [click, setClick] = useState(false);
-//   const handleClick = () => setClick(!click);
-
-//   const closeMenu = () => setClick(false);
-
-//   return (
-//     <div className="header">
-//       <nav className="navbar"></nav>
-//     </div>
-//   );
-// };
-
-// export default Navbar;
-
 import React from "react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import "./Navbar.css";
 import { IoMdMenu } from "react-icons/io";
 import { MdClose } from "react-icons/md";
@@ -30,6 +9,9 @@ import { Link as LinkS } from "react-scroll";
 
 const Navbar = () => {
   const navRef = useRef();
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const closeMenu = () => setClick(false);
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
@@ -40,17 +22,17 @@ const Navbar = () => {
         <h3 className="navbar-logo-h3">Anna.</h3>
         <nav ref={navRef}>
           <LinkS
-            to="/"
+            to="home"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
             className="nav-link"
           >
             Home
           </LinkS>
-          <LinkR
-            to="#techstack"
+          <LinkS
+            to="teckstack"
             spy={true}
             smooth={true}
             offset={50}
@@ -58,17 +40,38 @@ const Navbar = () => {
             className="nav-link"
           >
             Tech stack
-          </LinkR>
-          <a className="nav-link" href="/#">
+          </LinkS>
+          <LinkS
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav-link"
+          >
             Portfolio
-          </a>
-          <a className="nav-link" href="/#">
+          </LinkS>
+          <LinkS
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav-link"
+          >
             About me
-          </a>
+          </LinkS>
 
-          <a className="nav-link nav-contact-btn" href="/#">
+          <LinkS
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="nav-link nav-contact-btn"
+          >
             Contact
-          </a>
+          </LinkS>
           {/* <button className="nav-contact-btn">Contact</button>*/}
 
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>

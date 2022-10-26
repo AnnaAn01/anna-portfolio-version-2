@@ -8,7 +8,7 @@ import TechStack from "../TechStack/TechStack";
 const Home = () => {
   return (
     <>
-      <section className="homepage__container">
+      <section className="homepage__container" id="home">
         <div className="homepage__wrapper">
           <div className="homepage__columns homepage__text-area">
             <div className="homapage__divider-line"></div>
