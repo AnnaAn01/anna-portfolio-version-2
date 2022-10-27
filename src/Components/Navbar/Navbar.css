@@ -23,9 +23,23 @@
   text-align: center;
 }
 
-.navbar-logo-h3 {
+.nav-menu {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+
+.navbar-logo {
   font-size: 2.5rem;
   color: var(--mainTxtColor);
+  text-decoration: none;
+  font-weight: 600;
 }
 nav {
   align-items: center;
@@ -39,27 +53,33 @@ nav {
 
   align-items: center;
   justify-content: center;
-  padding: 0 2.5rem;
+  margin: 0 2.5rem;
   cursor: pointer;
+  /* background-color: green; */
 }
-
+/* 
 .nav-link .active {
   color: red;
-}
+} */
 
 .nav-link:hover {
   color: rgb(87, 86, 86);
 }
 
 .nav-contact-btn {
-  position: absolute;
-  top: 2.2rem;
-
-  right: 20rem;
-  /* background-color: aqua; */
   border: 2px solid rgb(87, 86, 86);
   padding: 0.5rem 2.5rem;
   transition: all 0.5s ease-out;
+
+  position: relative;
+  color: black;
+  text-decoration: none;
+  font-size: 1.8rem;
+
+  align-items: center;
+  justify-content: center;
+  margin: 0 2.5rem;
+  cursor: pointer;
 }
 
 .nav-contact-btn:hover {
@@ -67,58 +87,53 @@ nav {
   background-color: rgb(87, 86, 86);
 }
 
-header .nav-btn {
-  padding: 5px;
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  outline: none;
+.hamburger {
+  display: none;
+}
 
-  /* font-size: 5rem; */
-  visibility: hidden;
-  opacity: 0;
-  font-size: 3rem;
+.active {
+  color: red;
+}
+
+.nav-link-hvr:hover {
+  color: white;
 }
 
 @media only screen and (max-width: 1100px) {
-  header .nav-btn {
-    visibility: visible;
-    opacity: 1;
-    font-size: 6rem;
-  }
-
   .navbar-container {
     margin: 0;
   }
-  .nav-contact-btn {
-    position: relative;
-    top: 0;
-    right: 0;
+  .navbar-header {
+    max-width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.9); */
   }
 
-  header nav {
-    display: flex;
-    flex-direction: column;
+  .navbar-header .navbar-container {
+    max-width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
     position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
+    left: -100%;
+    top: 80px;
+    flex-direction: column;
+    background-color: rgba(242, 245, 234);
     width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    transition: 1s;
-    transform: translateY(-100vh);
-    background-color: rgb(242, 245, 234);
+    height: 90vh;
+    z-index: 999;
+    text-align: center;
+    transition: 0.3s;
   }
 
-  header .responsive_nav {
-    transform: none;
+  .nav-menu.active {
+    left: 0;
   }
 
-  nav .nav-close-btn {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
+  .nav-item {
+    margin: 1.5rem 0;
   }
 }

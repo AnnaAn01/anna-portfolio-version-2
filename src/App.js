@@ -9,12 +9,10 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" exact element={<Pages />} />
-        </Routes>
-      </Router>
+      <Navbar />
+      <Home />
+      <TechStack />
+      <Portfolio />
     </>
   );
 }
