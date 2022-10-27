@@ -195,7 +195,7 @@ const Navbar = () => {
   const closeMenu = () => setClick(false);
 
   return (
-    <div className="navbar-header">
+    <header className="navbar-header">
       <nav className="navbar-container">
         <a href="/" className="navbar-logo">
           Anna.
@@ -257,7 +257,7 @@ const Navbar = () => {
           </LinkS>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 };
 
