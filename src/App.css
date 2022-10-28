@@ -8,6 +8,11 @@
 
 :root {
   --mainBgColor: rgb(242, 245, 234);
-  /* --mainTxtColor: rgb(87, 86, 86); */
+
   --mainTxtColor: rgb(44, 54, 63);
+
+  /* --mainTxtColor: rgb(87, 86, 86); */
+  /* --mainBgColor: #fcf6f5ff; */
+  /* --mainBgColor: #fdf8f5;
+  --mainTxtColor: #266150; */
 }

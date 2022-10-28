@@ -2,6 +2,7 @@
   display: flex;
   position: relative;
   background-color: var(--mainBgColor);
+
   /* height: 100%; */
   width: 100%;
   padding-top: 8rem;
@@ -38,6 +39,9 @@
   text-transform: uppercase;
   font-weight: 500;
   color: var(--mainTxtColor);
+  /* color: white;
+  color: #266150; */
+
   letter-spacing: 2px;
   /* text-overflow: clip; */
 }
@@ -67,6 +71,7 @@
   margin-top: 27rem;
   border: none;
   background-color: var(--mainTxtColor);
+  /* background-color: #266150; */
   padding: 0.7rem 2.5rem;
   color: white;
   font-size: 1.8rem;
