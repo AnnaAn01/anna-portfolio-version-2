@@ -13,6 +13,7 @@
   width: auto;
   height: 100%;
   margin: 0 20rem;
+  margin-bottom: 3rem;
   /* margin: 0 15vw; */
   /* background-color: yellowgreen; */
   /* margin-top: 6rem; */
@@ -38,7 +39,7 @@
   display: flex;
   flex-direction: row;
   /* position: absolute; */
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--mainTxtColor);
@@ -60,4 +61,69 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.portfolio__col-1-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 7rem;
+}
+
+.portfolio__project-tite {
+  /* padding-top: 2rem; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 3rem;
+}
+
+.portfolio__project-description {
+  font-size: 2rem;
+  padding-top: 1rem;
+  /* padding: 2rem; */
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.portfolio__proect-techstack-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__proect-techstack {
+  font-size: 1rem;
+  padding: 1rem 1rem 2rem 0rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.portfolio__project-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio__project-btn {
+  margin-right: 3rem;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  width: 12rem;
+
+  border: none;
+  background-color: var(--mainTxtColor);
+  padding: 0.7rem 2.5rem;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 0 0 2px rgb(87, 86, 86);
+  text-transform: uppercase;
+}
+
+.portfolio__project-btn:hover {
+  background-color: var(--mainBgColor);
+  color: black;
+  box-shadow: 2px solid rgb(87, 86, 86);
 }

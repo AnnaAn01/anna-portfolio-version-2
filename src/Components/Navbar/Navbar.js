@@ -197,13 +197,22 @@ const Navbar = () => {
   return (
     <header className="navbar-header">
       <nav className="navbar-container">
-        <a href="/" className="navbar-logo">
+        <LinkS
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={1500}
+          className="navbar-logo"
+        >
           Anna.
-        </a>
+        </LinkS>
+
         <div className="hamburger" onClick={handleClick}>
           {click ? <MdClose size={30} /> : <IoMdMenu size={30} />}
         </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        {/*<ul className={click ? "nav-menu active" : "nav-menu"}>*/}
+        <ul className="nav-menu">
           <li className="nav-item ">
             <LinkS
               to="home"
@@ -211,7 +220,8 @@ const Navbar = () => {
               smooth={true}
               offset={-100}
               duration={500}
-              className="nav-link"
+              className={click ? "nav-link active" : "nav-link"}
+              // className="nav-link"
               onClick={closeMenu}
             >
               Home
@@ -241,6 +251,19 @@ const Navbar = () => {
               onClick={closeMenu}
             >
               Portfolio
+            </LinkS>
+          </li>
+          <li className="nav-item ">
+            <LinkS
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              className="nav-link"
+              onClick={closeMenu}
+            >
+              About Me
             </LinkS>
           </li>
 

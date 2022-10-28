@@ -35,12 +35,6 @@
   text-decoration: none;
 }
 
-.navbar-logo {
-  font-size: 2.5rem;
-  color: var(--mainTxtColor);
-  text-decoration: none;
-  font-weight: 600;
-}
 nav {
   align-items: center;
   justify-content: center;
@@ -92,11 +86,23 @@ nav {
 }
 
 .active {
-  color: red;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
 }
 
 .nav-link-hvr:hover {
   color: white;
+}
+
+.navbar-logo {
+  font-size: 2.5rem;
+  color: var(--mainTxtColor);
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1100px) {

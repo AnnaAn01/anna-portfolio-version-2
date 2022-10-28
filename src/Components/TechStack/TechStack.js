@@ -51,7 +51,9 @@ const TechStack = () => {
           </div>
           <div className="techstack__item-wrapper">
             <SiStyledcomponents className="techstack__icon-styled-comp" />
-            <div className="techstack__item-title">StyledComp</div>
+            <div className="techstack__item-title techstack__styled-comp">
+              Styled <span className="styled-comp__span">Comp</span>
+            </div>
           </div>
         </div>
       </div>
