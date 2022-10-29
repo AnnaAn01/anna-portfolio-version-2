@@ -68,7 +68,6 @@
 }
 
 .techstack__list-area {
-  /* padding-left: 5rem; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(auto-fill, 1fr);
@@ -78,7 +77,6 @@
   margin-top: 2rem;
   height: auto;
   padding-bottom: 5rem;
-  /* background-color: green; */
 }
 
 .techstack__item-wrapper {
