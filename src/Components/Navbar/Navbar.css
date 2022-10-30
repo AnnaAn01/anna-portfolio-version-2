@@ -49,12 +49,7 @@ nav {
   justify-content: center;
   margin: 0 2.5rem;
   cursor: pointer;
-  /* background-color: green; */
 }
-/* 
-.nav-link .active {
-  color: red;
-} */
 
 .nav-link:hover {
   color: rgb(87, 86, 86);
