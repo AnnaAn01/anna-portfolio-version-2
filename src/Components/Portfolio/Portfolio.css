@@ -1,7 +1,6 @@
 .portfolio__container {
   position: relative;
   background-color: var(--mainBgColor);
-  /* height: 100%; */
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -14,10 +13,6 @@
   height: 100%;
   margin: 0 20rem;
   margin-bottom: 3rem;
-  /* margin: 0 15vw; */
-  /* background-color: yellowgreen; */
-  /* margin-top: 6rem; */
-  /* flex-direction: row; */
 }
 
 .portfolio__columns {
