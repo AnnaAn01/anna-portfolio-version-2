@@ -22,8 +22,6 @@
 }
 
 .portfolio__divider-line {
-  /* display: flex; */
-  /* position: absolute; */
   width: 12rem;
   height: 0.5rem;
   background-color: var(--mainTxtColor);
@@ -33,15 +31,11 @@
 .portfolio__intro-title {
   display: flex;
   flex-direction: row;
-  /* position: absolute; */
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--mainTxtColor);
   letter-spacing: 2px;
-  /* text-overflow: clip; */
-  /* background-color: red; */
-  /* margin-top: 5rem; */
   padding-bottom: 2rem;
   margin: 0 20rem;
 }
