@@ -11,7 +11,7 @@ const Home = () => {
       <section className="homepage__container" id="home">
         <div className="homepage__wrapper">
           <div className="homepage__columns homepage__text-area">
-            <div className="homapage__divider-line"></div>
+            <div className="homepage__divider-line"></div>
             <h1 className="homepage__intro-title">
               I'm Anna, <br />a front-end developer.
             </h1>

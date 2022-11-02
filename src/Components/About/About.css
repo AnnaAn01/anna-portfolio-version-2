@@ -1,4 +1,9 @@
 .about__container {
-  height: 100vh;
-  background-color: red;
+  display: flex;
+  position: relative;
+  background-color: var(--mainTxtColor);
+
+  /* height: 100%; */
+  width: 100%;
+  padding-top: 8rem;
 }
