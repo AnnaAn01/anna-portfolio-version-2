@@ -48,6 +48,12 @@
   margin-top: 2rem;
   font-size: 1.9rem;
   color: var(--mainBgColor);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about__description-p {
+  font-size: 1.8rem;
 }
 
 .about__follow-btn {
@@ -74,6 +80,10 @@
 
 .about__img-area {
   margin-top: 15rem;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
 }
 
 .about__img {
