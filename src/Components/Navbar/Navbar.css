@@ -137,6 +137,17 @@ nav {
   background-size: 100% 0px;
 }
 
+.nav-contact {
+  display: inline-block;
+  padding-bottom: 1rem;
+  background-image: none;
+  background-position: 0 100%; /*OR bottom left*/
+  background-size: 0% 0px;
+  background-repeat: no-repeat;
+  background-position: 0 0; /*OR bottom right*/
+  background-size: 100% 0px;
+}
+
 @media only screen and (max-width: 1100px) {
   .navbar-container {
     margin: 0;

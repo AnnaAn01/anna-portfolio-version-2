@@ -271,9 +271,9 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-40}
             duration={500}
-            className="nav-item "
+            className="nav-contact"
             onClick={closeMenu}
           >
             <button className="nav-contact-btn">Contact </button>

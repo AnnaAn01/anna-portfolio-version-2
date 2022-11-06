@@ -82,7 +82,7 @@
   margin-top: 15rem;
   display: flex;
   position: relative;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   /* align-items: flex-end; */
 }
 
