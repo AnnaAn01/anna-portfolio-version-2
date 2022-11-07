@@ -211,15 +211,15 @@ const Navbar = () => {
         <div className="hamburger" onClick={handleClick}>
           {click ? <MdClose size={30} /> : <IoMdMenu size={30} />}
         </div>
-        {/*<ul className={click ? "nav-menu active" : "nav-menu"}>*/}
-        <ul className="nav-menu">
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          {/*<ul className="nav-menu">*/}
           <li className="nav-item ">
             <LinkS
               to="home"
               spy={true}
               smooth={true}
               offset={-100}
-              duration={500}
+              duration={1500}
               className={click ? "nav-link active" : "nav-link"}
               // className="nav-link"
               onClick={closeMenu}
@@ -233,7 +233,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-80}
-              duration={500}
+              duration={1500}
               className="nav-link"
               onClick={closeMenu}
             >
@@ -246,7 +246,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-40}
-              duration={500}
+              duration={1000}
               className="nav-link"
               onClick={closeMenu}
             >
@@ -258,8 +258,8 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-40}
-              duration={500}
+              offset={-30}
+              duration={1000}
               className="nav-link"
               onClick={closeMenu}
             >
@@ -272,11 +272,11 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-40}
-            duration={500}
+            duration={1500}
             className="nav-contact"
             onClick={closeMenu}
           >
-            <button className="nav-contact-btn">Contact </button>
+            <button className="nav-contact-btn">Contact</button>
           </LinkS>
         </ul>
       </nav>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import ProjectImg from "../../img/portfolio-image-sample-2.png";
+import RecipeImg from "../../img/recipe-project.png";
 
 const Portfolio = () => {
   return (
@@ -14,12 +15,12 @@ const Portfolio = () => {
         <div className="portfolio__columns portfolio__col-2-img">
           <img
             className="portfolio__project-img"
-            src={ProjectImg}
+            src={RecipeImg}
             alt="project"
           />
         </div>
         <div className="portfolio__columns portfolio__col-1-txt">
-          <div className="portfolio__project-tite">Project 1 Title Here</div>
+          <div className="portfolio__project-tite">Recipe Website</div>
           <div className="portfolio__project-description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ad
             reiciendis quaerat in autem, voluptatibus, distinctio soluta
@@ -30,8 +31,22 @@ const Portfolio = () => {
             <span className="portfolio__proect-techstack">CSS</span>
           </div>
           <div className="portfolio__project-btn-wrapper">
-            <button className="portfolio__project-btn">Live</button>
-            <button className="portfolio__project-btn">Source</button>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://annaan01.github.io/recipe-website/#/"
+              className="portfolio__project-btn"
+            >
+              Live
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/AnnaAn01/recipe-website"
+              className="portfolio__project-btn"
+            >
+              Source
+            </a>
           </div>
         </div>
       </div>
@@ -48,8 +63,22 @@ const Portfolio = () => {
             <span className="portfolio__proect-techstack">CSS</span>
           </div>
           <div className="portfolio__project-btn-wrapper">
-            <button className="portfolio__project-btn">Live</button>
-            <button className="portfolio__project-btn">Source</button>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="/"
+              className="portfolio__project-btn"
+            >
+              Live
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="/"
+              className="portfolio__project-btn"
+            >
+              Source
+            </a>
           </div>
         </div>
         <div className="portfolio__columns portfolio__col-2-img">

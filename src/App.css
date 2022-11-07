@@ -16,3 +16,10 @@
   /* --mainBgColor: #fdf8f5;
   --mainTxtColor: #266150; */
 }
+/* 
+body {
+  overflow: scroll;
+} */
+body {
+  overflow-y: scroll; /* Show vertical scrollbar */
+}

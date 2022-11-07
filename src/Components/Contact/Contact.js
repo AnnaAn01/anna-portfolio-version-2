@@ -28,7 +28,9 @@ const Contact = () => {
             <li className="contact__linkedin-item">
               <div className="contact__item-name">LinkedIn:</div>
               <a
-                href="mailto: arzumanyan.an@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/anna-arzumanyan/"
                 className="contact__items contact__linkedin"
               >
                 <FaIcons.FaLinkedin className="contact__icons" />

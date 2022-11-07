@@ -1,2 +1,11 @@
 .footer__container {
+  background-color: var(--mainTxtColor);
+  display: flex;
+  position: relative;
+  height: 100vh;
+  height: 100%;
+  height: 50vh;
+  width: 100%;
+  color: var(--mainBgColor);
+  width: 100%;
 }
