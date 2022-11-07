@@ -218,7 +218,7 @@ const Navbar = () => {
               to="home"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-80}
               duration={1500}
               className={click ? "nav-link active" : "nav-link"}
               // className="nav-link"
@@ -245,7 +245,7 @@ const Navbar = () => {
               to="portfolio"
               spy={true}
               smooth={true}
-              offset={-40}
+              offset={-79}
               duration={1000}
               className="nav-link"
               onClick={closeMenu}
@@ -258,7 +258,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-30}
+              offset={-79}
               duration={1000}
               className="nav-link"
               onClick={closeMenu}
@@ -271,7 +271,7 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-40}
+            offset={-30}
             duration={1500}
             className="nav-contact"
             onClick={closeMenu}
