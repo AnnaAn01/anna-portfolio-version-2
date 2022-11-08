@@ -24,10 +24,10 @@ const Home = () => {
             <div className="homepage__follow-links">
               <p className="homepage__follow-title">Follow me</p>
               <div className="homepage__sns-icons-wrapper">
-                <FaGithub className="homepage-sns-icons" />
-                <FaLinkedin className="homepage-sns-icons" />
-                <FaTwitterSquare className="homepage-sns-icons" />
-                <RiInstagramFill className="homepage-sns-icons" />
+                <FaGithub className="homepage__sns-icons" />
+                <FaLinkedin className="homepage__sns-icons" />
+                <FaTwitterSquare className="homepage__sns-icons" />
+                <RiInstagramFill className="homepage__sns-icons" />
               </div>
             </div>
           </div>

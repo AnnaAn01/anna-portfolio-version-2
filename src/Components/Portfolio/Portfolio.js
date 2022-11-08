@@ -27,8 +27,8 @@ const Portfolio = () => {
             officiis corrupti ab est ullam molestiae.
           </div>
           <div className="portfolio__proect-techstack-wrapper">
-            <span className="portfolio__proect-techstack">ReactJS</span>
-            <span className="portfolio__proect-techstack">CSS</span>
+            <span className="portfolio__project-techstack">ReactJS</span>
+            <span className="portfolio__project-techstack">CSS</span>
           </div>
           <div className="portfolio__project-btn-wrapper">
             <a

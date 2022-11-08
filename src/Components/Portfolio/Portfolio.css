@@ -21,6 +21,7 @@
   /* border: 1px solid rgb(109, 109, 109); */
   box-shadow: 0 0 0 1px rgba(109, 109, 109, 0.5);
   border-radius: 2px;
+  margin-bottom: 3rem;
 }
 
 .portfolio__divider-line {
@@ -91,9 +92,9 @@
   align-items: center;
 }
 
-.portfolio__proect-techstack {
+.portfolio__project-techstack {
   font-size: 1rem;
-  padding: 1rem 1rem 2rem 0rem;
+  margin: 1rem 1rem 2rem 0rem;
   font-size: 1.5rem;
   font-weight: 600;
 }
