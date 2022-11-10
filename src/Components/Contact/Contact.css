@@ -187,3 +187,15 @@ label {
   width: 0;
   content: "";
 }
+
+@media screen and (max-width: 1100px) {
+  .contact__wrapper {
+    display: flex;
+    margin: 0 2rem;
+    flex-direction: column;
+  }
+
+  .contact__columns {
+    flex: 50%;
+  }
+}

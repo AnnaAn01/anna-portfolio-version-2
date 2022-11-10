@@ -33,8 +33,10 @@ const About = () => {
           </div>
           <button className="about__follow-btn">Let's talk</button>
         </div>
-        <div className="about__columns about__img-area">
-          <img className="about__img" src={HomeImg} alt="about-me" />
+        <div className="about__columns">
+          <div className="about__img-area">
+            <img className="about__img" src={HomeImg} alt="about-me" />
+          </div>
         </div>
       </div>
     </section>

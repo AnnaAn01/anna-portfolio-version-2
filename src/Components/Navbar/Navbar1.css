@@ -1,14 +1,14 @@
-.navbar-header {
+/* .navbar-header {
   display: flex;
 
   position: fixed;
   align-items: center;
   height: 8rem;
   width: 100%;
+  width: 100vw;
   padding: 0 2rem;
 
   background-color: rgba(242, 245, 234);
-  /* border-bottom: 2.2px groove rgba(87, 86, 86, 0.4); */
   font-size: 3rem;
   z-index: 100;
 }
@@ -49,28 +49,20 @@ nav {
   justify-content: center;
   margin: 0 2.5rem;
   cursor: pointer;
-  /* for underline */
+
   display: inline-block;
   padding-bottom: 1rem;
   background-image: linear-gradient(rgb(44, 54, 63) 0 0);
-  background-position: 0 100%; /*OR bottom left*/
+  background-position: 0 100%;
   background-size: 0% 3px;
   background-repeat: no-repeat;
-  transition: background-size 0.3s, background-position 0s 0.3s; /*change after the size immediately*/
+  transition: background-size 0.3s, background-position 0s 0.3s;
 }
 
 .nav-link:hover {
-  background-position: 100% 100%; /*OR bottom right*/
+  background-position: 100% 100%;
   background-size: 100% 2px;
 }
-
-/* .nav-link:hover {
-
-  text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: red;
-  text-decoration-thickness: 2px;
-} */
 
 .nav-contact-btn {
   border: 2px solid rgb(87, 86, 86);
@@ -98,17 +90,13 @@ nav {
 }
 
 .active {
-  /* text-decoration: underline;
-  text-underline-offset: 1.4rem;
-  text-decoration-color: black;
-  text-decoration-thickness: 2px; */
   display: inline-block;
   padding-bottom: 1rem;
   background-image: linear-gradient(rgb(44, 54, 63) 0 0);
-  background-position: 0 100%; /*OR bottom left*/
+  background-position: 0 100%;
   background-size: 0% 3px;
   background-repeat: no-repeat;
-  background-position: 100% 100%; /*OR bottom right*/
+  background-position: 100% 100%;
   background-size: 100% 2px;
 }
 
@@ -123,17 +111,14 @@ nav {
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
-  /* background-image: none; */
-  /* background-size: 0;
-  background-position: 0; */
 
   display: inline-block;
   padding-bottom: 1rem;
   background-image: none;
-  background-position: 0 100%; /*OR bottom left*/
+  background-position: 0 100%;
   background-size: 0% 0px;
   background-repeat: no-repeat;
-  background-position: 0 0; /*OR bottom right*/
+  background-position: 0 0;
   background-size: 100% 0px;
 }
 
@@ -141,10 +126,10 @@ nav {
   display: inline-block;
   padding-bottom: 1rem;
   background-image: none;
-  background-position: 0 100%; /*OR bottom left*/
+  background-position: 0 100%;
   background-size: 0% 0px;
   background-repeat: no-repeat;
-  background-position: 0 0; /*OR bottom right*/
+  background-position: 0 0;
   background-size: 100% 0px;
 }
 
@@ -164,11 +149,9 @@ nav {
     margin: 0;
     width: 100%;
     display: flex;
-    /* position: relative; */
   }
 
   .navbar-header .navbar-container {
-    /* max-width: 100%; */
   }
 
   .hamburger {
@@ -198,4 +181,4 @@ nav {
   .nav-item {
     margin: 1.5rem 0;
   }
-}
+} */

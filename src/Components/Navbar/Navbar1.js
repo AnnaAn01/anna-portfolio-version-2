@@ -181,7 +181,7 @@
 
 import React from "react";
 import { useRef, useState } from "react";
-import "./Navbar.css";
+import "./Navbar1.css";
 import { IoMdMenu } from "react-icons/io";
 import { MdClose } from "react-icons/md";
 import { NavLink } from "react-router-dom";
