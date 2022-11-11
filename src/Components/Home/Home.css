@@ -143,4 +143,12 @@
     margin: 0;
     /* background-color: red; */
   }
+
+  .homepage__follow-btn {
+    margin-top: 2rem;
+  }
+
+  .homepage__follow-links {
+    margin-top: 2rem;
+  }
 }
