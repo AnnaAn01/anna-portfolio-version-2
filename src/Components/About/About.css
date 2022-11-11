@@ -1,37 +1,22 @@
 .about__container {
+  background-color: var(--mainTxtColor);
   /* display: flex;
   position: relative;
-  width: 100%; */
-  background-color: var(--mainTxtColor);
-  display: flex;
-  position: relative;
-
   width: 100%;
-  /* padding-top: 8rem; */
   justify-content: center;
-  align-items: center;
-  /* background-color: red; */
+  align-items: center; */
+  padding-top: 0rem;
 }
 
 .about__wrapper {
   /* display: flex;
   width: 100%;
   height: 100%;
-  margin: 0 20rem;
-  margin-bottom: 10rem; */
-  /* margin-top: 8rem; */
-  display: flex;
-  width: 100%;
-  height: 100%;
-  /* margin: 0 20rem; */
   max-width: 1300px;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5rem; */
   /* background-color: red; */
-  /* padding: 0 24px; */
-  padding-bottom: 5rem;
-  /* padding-top: 5rem; */
-  /* background-color: yellow; */
 }
 
 .about__columns {

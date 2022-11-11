@@ -23,3 +23,32 @@ body {
 body {
   overflow-y: scroll; /* Show vertical scrollbar */
 }
+
+.homepage__container,
+.about__container,
+.portfolio__container,
+.techstack__container,
+.contact__container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding-top: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage__wrapper,
+.about__wrapper,
+.techstack__wrapper,
+.contact__wrapper {
+  /* margin-top: 0rem; */
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0 20rem;
+  max-width: 1300px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
