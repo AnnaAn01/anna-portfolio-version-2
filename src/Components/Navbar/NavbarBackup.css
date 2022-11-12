@@ -1,25 +1,10 @@
 .navbar-header {
-  /* background-color: #40e340;
-
-  height: 80px;
-
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 10; */
-
-  display: flex;
-
   position: fixed;
   align-items: center;
   height: 8rem;
   width: 100%;
   width: 100vw;
-  /* padding: 0 2rem; */
-
   background-color: rgba(242, 245, 234);
   font-size: 3rem;
   z-index: 100;
@@ -60,6 +45,8 @@
   width: 100%;
   /* padding: 0 24px; */
   max-width: 1300px;
+  margin: 0 19rem;
+  /* background-color: blue; */
 }
 
 .nav-menu {
@@ -98,6 +85,7 @@ nav {
   display: inline-block;
   padding-bottom: 1rem;
   background-image: linear-gradient(rgb(44, 54, 63) 0 0);
+  background-image: linear-gradient(rgb(255, 105, 97) 0 0);
   background-position: 0 100%; /*OR bottom left*/
   background-size: 0% 3px;
   background-repeat: no-repeat;
@@ -129,13 +117,15 @@ nav {
 
   align-items: center;
   justify-content: center;
-  margin: 0 2.5rem;
+  margin: 0 0rem;
   cursor: pointer;
 }
 
 .nav-contact-btn:hover {
   color: white;
   background-color: rgb(87, 86, 86);
+  background-color: var(--mainBtnColor);
+  /* background-color: rgb(87, 86, 86); */
 }
 
 .hamburger {
@@ -149,7 +139,8 @@ nav {
   text-decoration-thickness: 2px; */
   display: inline-block;
   padding-bottom: 1rem;
-  background-image: linear-gradient(rgb(44, 54, 63) 0 0);
+  /* background-image: linear-gradient(rgb(44, 54, 63) 0 0); */
+  background-image: linear-gradient(rgb(255, 105, 97) 0 0);
   background-position: 0 100%; /*OR bottom left*/
   background-size: 0% 3px;
   background-repeat: no-repeat;

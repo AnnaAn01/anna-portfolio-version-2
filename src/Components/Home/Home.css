@@ -68,12 +68,15 @@
   border: none;
   background-color: var(--mainTxtColor);
   /* background-color: #266150; */
+  background-color: var(--mainBtnColor);
   padding: 0.7rem 2.5rem;
-  color: white;
+  color: black;
+  /* color: white; */
   font-size: 1.8rem;
   cursor: pointer;
   transition: all 0.5s ease-out;
-  box-shadow: 0 0 0 2px rgb(87, 86, 86);
+  /* box-shadow: 0 0 0 2px rgb(87, 86, 86); */
+  box-shadow: 0 0 0 2px #ff6961;
   text-transform: uppercase;
 }
 
@@ -94,12 +97,20 @@
 }
 
 .homepage__sns-icons-wrapper {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   color: var(--mainTxtColor);
 }
 
 .homepage__sns-icons {
   margin-right: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 1px;
+  font-size: 1.8rem;
+}
+
+.homepage__sns-icons:hover {
+  color: #ff6961;
 }
 
 @media screen and (max-width: 1100px) {
