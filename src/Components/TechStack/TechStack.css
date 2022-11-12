@@ -1,38 +1,29 @@
 .techstack__container {
-  /* background-color: rgb(44, 54, 63);
-  display: flex;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  color: var(--mainBgColor);
-  width: 100%; */
-
-  display: flex;
-  position: relative;
   background-color: var(--mainTxtColor);
   color: var(--mainBgColor);
-  width: 100%;
+  /* width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding-top: 8rem;
   justify-content: center;
   align-items: center;
 }
 
 .techstack__wrapper {
-  /* background-color: red; */
-
-  /* padding-top: 7rem;
-  position: relative;
-  margin: 0 0rem;
-  margin-bottom: 3rem;
-
-  max-width: 1300px;
-
   display: flex;
-  position: relative;
   width: 100%;
   height: 100%;
-  justify-content: center; */
+  margin: 0 20rem;
+  max-width: 1300px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 .techstack__columns {

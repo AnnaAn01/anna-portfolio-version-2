@@ -1,25 +1,37 @@
 .contact__container {
   background-color: var(--mainBgColor);
   color: var(--mainTxtColor);
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding-top: 8rem;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .contact__wrapper {
-  /* display: flex;
+  display: flex;
   width: 100%;
   height: 100%;
   margin: 0 20rem;
-  padding-top: 10rem;
-  padding-bottom: 5rem; */
+  max-width: 1300px;
+  /* justify-content: center;
+  align-items: center; */
+  padding-bottom: 5rem;
   padding-top: 0rem;
 }
 
 .contact__columns {
   flex: 50%;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .contact__title-area {
+  position: relative;
   padding-right: 5rem;
   padding-bottom: 5rem;
+  /* background-color: red; */
 }
 
 .contact__divider-line {
