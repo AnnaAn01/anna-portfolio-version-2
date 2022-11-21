@@ -97,14 +97,6 @@ nav {
   background-size: 100% 2px;
 }
 
-/* .nav-link:hover {
-
-  text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: red;
-  text-decoration-thickness: 2px;
-} */
-
 .nav-contact-btn {
   border: 2px solid rgb(87, 86, 86);
   padding: 0.5rem 2.5rem;
