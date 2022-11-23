@@ -30,14 +30,6 @@
 } */
 
 .navbar-container {
-  /* display: flex;
-  width: 100%;
-  margin: 0 14vw;
-  margin: 18rem;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center; */
-
   display: flex;
   justify-content: space-between;
   /* height: 80px; */
