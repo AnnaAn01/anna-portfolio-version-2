@@ -32,10 +32,10 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  /* height: 80px; */
+
   z-index: 1;
   width: 100%;
-  /* padding: 0 24px; */
+
   max-width: 1300px;
   margin: 0 19rem;
 }
@@ -50,7 +50,6 @@
 
 .nav-item {
   text-decoration: none;
-  /* height: 80px; */
 }
 
 nav {
