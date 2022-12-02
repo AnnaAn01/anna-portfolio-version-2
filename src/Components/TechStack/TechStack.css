@@ -22,8 +22,9 @@
   max-width: 1300px;
   justify-content: center;
   align-items: center;
-  padding-bottom: 5rem;
-  padding-top: 5rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  /* background-color: red; */
 }
 
 .techstack__columns {
@@ -81,9 +82,11 @@
   /* grid-column-gap: 10px; */
   grid-row-gap: 40px;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 0rem;
   height: auto;
   padding-bottom: 5rem;
+  /* background-color: aqua; */
+  /* grid-row-gap: 0px; */
 }
 
 .techstack__item-wrapper {
@@ -91,9 +94,13 @@
   width: 100%;
   /* background-color: rgb(55, 134, 134); */
   justify-content: center;
+  /* justify-content: space-between; */
   align-items: center;
   text-align: center;
-  /* background-color: red; */
+  /* background-color: violet; */
+  border: 0.5px solid rgb(60, 60, 60);
+  padding: 1rem 0;
+  border-radius: 5px;
 }
 
 .techstack__item-title {
@@ -143,11 +150,90 @@
 .styled-comp__span {
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1450px) {
+  .techstack__wrapper {
+    margin: 0 10rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    /* margin-top: 3rem; */
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .techstack__wrapper {
+    margin: 0 5rem;
+    padding-top: 0rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .techstack__wrapper {
+    margin: 0 2rem;
+  }
+
+  .techstack__title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .techstack__wrapper {
     display: flex;
 
-    margin: 0 2rem;
+    /* margin: 0 2rem; */
     flex-direction: column;
+    margin: 0rem 2rem;
+  }
+
+  .techstack__follow-btn {
+    display: none;
+  }
+
+  .techstack__title-area {
+    padding-bottom: 3rem;
+  }
+
+  .techstack__list-area {
+    width: 100%;
+    grid-row-gap: 0px;
+  }
+
+  .techstack__item-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .techstack__container {
+    padding-top: 5rem;
+  }
+
+  .techstack__wrapper {
+    /* padding-top: 0rem; */
+  }
+
+  .techstack__list-area {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0rem;
+    padding-bottom: 2rem;
+    grid-row-gap: 0px;
+  }
+
+  .techstack__item-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 451px) {
+}
+
+@media screen and (max-width: 362px) {
+  .techstack__item-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 281px) and (max-height: 654px) {
+  .techstack__item-title {
+    font-size: 1.4rem;
   }
 }

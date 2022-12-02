@@ -193,7 +193,7 @@
 
   .homepage__wrapper {
     flex-direction: column;
-    margin: 0 2rem;
+    margin: 0rem 2rem;
     width: 100%;
   }
 
@@ -207,7 +207,8 @@
   }
 
   .homepage__divider-line {
-    display: none;
+    /* display: none; */
+    margin: 5rem 0 0rem 0;
   }
 
   .homepage__intro-title {
@@ -230,6 +231,20 @@
   }
 
   .homepage__img-area {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .homepage__intro-title {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .homepage__intro-title {
+    font-size: 2.35rem;
+    letter-spacing: 1.5px;
     padding-bottom: 2rem;
   }
 }
