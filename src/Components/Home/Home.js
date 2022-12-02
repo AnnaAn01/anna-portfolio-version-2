@@ -17,8 +17,8 @@ const Home = () => {
             </h1>
             <div className="homepage__intro-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-              deserunt <br /> vero officia distinctio neque minima quasi
-              quisquam qui voluptatem <br /> iusto corrupti.
+              deserunt vero officia distinctio neque minima quasi quisquam qui
+              voluptatem iusto corrupti.
             </div>
             <button className="homepage__follow-btn">Let's talk</button>
             <div className="homepage__follow-links">
