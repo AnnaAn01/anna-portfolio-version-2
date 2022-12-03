@@ -24,12 +24,12 @@ const About = () => {
               natus in cum qui quam quis, nostrum culpa soluta beatae dolorum!
             </p>
             <br />
-            <p className="about__description-p">
+            {/*<p className="about__description-p">
               Officia maiores temporibus incidunt aspernatur, aut, ipsa at earum
               saepe quaerat quibusdam natus minus illo voluptate cumque.
               Doloribus unde amet exercitationem quos aut similique incidunt,
               molestiae nam blanditiis!
-            </p>
+  </p>*/}
           </div>
           <button className="about__follow-btn">Let's talk</button>
         </div>
