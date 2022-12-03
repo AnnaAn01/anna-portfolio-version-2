@@ -173,6 +173,10 @@
   .techstack__title {
     font-size: 3rem;
   }
+
+  .techstack__container {
+    padding-top: 5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -182,6 +186,9 @@
     /* margin: 0 2rem; */
     flex-direction: column;
     margin: 0rem 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
   }
 
   .techstack__follow-btn {
@@ -189,7 +196,14 @@
   }
 
   .techstack__title-area {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     padding-bottom: 3rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    /* background-color: red; */
   }
 
   .techstack__list-area {
