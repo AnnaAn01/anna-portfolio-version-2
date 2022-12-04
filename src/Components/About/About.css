@@ -118,17 +118,25 @@
 }
 @media screen and (max-width: 1024px) {
   .about__wrapper {
-    margin: 2rem 2rem;
+    margin: 0rem 2rem;
   }
 
   .about__intro-title {
     font-size: 3rem;
   }
+
+  .about__text-area {
+    padding-right: 2rem;
+  }
+
+  .about__follow-btn {
+    margin-top: 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .about__wrapper {
-    margin: 2rem 2rem;
+    margin: 0rem 2rem;
     flex-direction: column;
     /* justify-content: flex-start;
     align-items: flex-start;

@@ -20,8 +20,7 @@ const About = () => {
               Magnam atque consequuntur, accusamus tempora nam eos et mollitia
               quis voluptatibus id, facere dolorem, similique vel sit iste
               cupiditate aut. Eveniet voluptatem quibusdam velit nemo asperiores
-              in quos? Suscipit esse cupiditate cumque amet! Voluptatum earum
-              natus in cum qui quam quis, nostrum culpa soluta beatae dolorum!
+              in quos? Suscipit esse cupiditate cumque amet!
             </p>
             <br />
             {/*<p className="about__description-p">
