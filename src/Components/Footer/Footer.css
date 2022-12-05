@@ -8,6 +8,7 @@
   width: 100%;
   color: var(--mainBgColor);
   width: 100%;
+  padding-bottom: 2rem;
 }
 
 .footer__wrapper {
@@ -49,10 +50,50 @@
 
 .footer__techstack-used {
   font-size: 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .footer__under-the-line {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1450px) {
+  .footer__wrapper {
+    margin: 2rem 10rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .footer__wrapper {
+    margin: 2rem 5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__wrapper {
+    margin: 2rem 2rem;
+  }
+
+  .footer__contact-me {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__wrapper {
+    margin: 2rem 2rem;
+  }
+
+  .footer__developed-by {
+    margin-right: 3rem;
+    /* background-color: red; */
+    font-size: 1.5rem;
+  }
+
+  .footer__techstack-used {
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    /* background-color: blue; */
+  }
 }

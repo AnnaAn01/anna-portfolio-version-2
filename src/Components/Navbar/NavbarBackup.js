@@ -52,7 +52,7 @@ const Navbar = () => {
               to="teckstack"
               spy={true}
               smooth={true}
-              offset={-69}
+              offset={-80}
               duration={1500}
               className="nav-link"
               onClick={closeMenu}
@@ -65,7 +65,7 @@ const Navbar = () => {
               to="portfolio"
               spy={true}
               smooth={true}
-              offset={-69}
+              offset={-80}
               duration={1000}
               className="nav-link"
               onClick={closeMenu}
@@ -78,7 +78,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-69}
+              offset={-80}
               duration={1000}
               className="nav-link"
               onClick={closeMenu}
@@ -91,7 +91,7 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-69}
+            offset={-79}
             duration={1500}
             className="nav-contact"
             onClick={closeMenu}

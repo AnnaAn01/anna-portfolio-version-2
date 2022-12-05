@@ -4,8 +4,11 @@
   position: relative;
   width: 100%;
   padding-top: 8rem;
+  padding-bottom: 2rem;
   justify-content: center;
   align-items: center;
+  /* background: linear-gradient(var(--mainBgColor) 97%, var(--mainTxtColor)); */
+  /* background-blend-mode: screen; */
 }
 
 .homepage__wrapper {
@@ -113,6 +116,7 @@
   transition: all 0.5s ease-out;
   /* box-shadow: 0 0 0 2px rgb(87, 86, 86); */
   box-shadow: 0 0 0 2px #ff6961;
+  box-shadow: 0 0 0 2px rgb(87, 86, 86);
   text-transform: uppercase;
 }
 

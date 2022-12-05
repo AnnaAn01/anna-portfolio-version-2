@@ -79,7 +79,7 @@ const Contact = () => {
           </li> */}
           </ul>
         </div>
-        <div className="contact__columns contact__list-area">
+        <div className="contact__columns contact__form-area">
           <form className="contact__form">
             <label>Name</label>
             <input

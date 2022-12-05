@@ -83,13 +83,15 @@
 .about__img-area {
   /* display: flex;
   position: relative; */
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   position: relative;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   height: 100%;
+  height: 100%;
+
   width: 100%;
 }
 
@@ -103,6 +105,7 @@
   justify-content: start;
   align-items: start;
   text-align: start;
+  /* max-height: 50rem; */
 }
 
 @media screen and (max-width: 1450px) {

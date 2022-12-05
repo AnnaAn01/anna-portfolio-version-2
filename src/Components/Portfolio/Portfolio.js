@@ -21,7 +21,7 @@ const Portfolio = () => {
             />
           </div>
           <div className="portfolio__columns portfolio__col-1-txt">
-            <div className="portfolio__project-tite">Recipe Website</div>
+            <div className="portfolio__project-title">Recipe Website</div>
             <div className="portfolio__project-description">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ad
               reiciendis quaerat in autem, voluptatibus, distinctio soluta
@@ -51,9 +51,9 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="portfolio__projects-wrapper">
+        <div className="portfolio__projects-wrapper portfolio__txt-first">
           <div className="portfolio__columns portfolio__col-1-txt">
-            <div className="portfolio__project-tite">Project 2 Title Here</div>
+            <div className="portfolio__project-title">Project 2 Title Here</div>
             <div className="portfolio__project-description">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ad
               reiciendis quaerat in autem, voluptatibus, distinctio soluta

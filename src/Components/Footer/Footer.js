@@ -18,7 +18,6 @@ const Footer = () => {
         </div>
         <div className="footer__divider-line"></div>
         <div className="footer__under-the-line">
-          {" "}
           <div className="footer__developed-by">
             Developed by Anna Arzumanyan © 2022
           </div>

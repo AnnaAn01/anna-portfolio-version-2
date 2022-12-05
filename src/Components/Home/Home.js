@@ -20,7 +20,9 @@ const Home = () => {
               deserunt vero officia distinctio neque minima quasi quisquam qui
               voluptatem iusto corrupti.
             </div>
-            <button className="homepage__follow-btn">Let's talk</button>
+            <a href="#contact">
+              <button className="homepage__follow-btn">Let's talk</button>
+            </a>
             <div className="homepage__follow-links">
               <p className="homepage__follow-title">Follow me</p>
               <div className="homepage__sns-icons-wrapper">
