@@ -1,18 +1,13 @@
 .techstack__container {
   background-color: var(--mainTxtColor);
   color: var(--mainBgColor);
-  /* width: 100%;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  justify-content: center;
-  align-items: center; */
+
   display: flex;
   position: relative;
   width: 100%;
   padding-top: 8rem;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(var(--mainTxtColor) 97%, var(--mainBgColor)); */
 }
 
 .techstack__wrapper {
@@ -25,7 +20,6 @@
   align-items: center;
   padding-bottom: 3rem;
   padding-top: 0rem;
-  /* background-color: red; */
 }
 
 .techstack__columns {
@@ -41,7 +35,6 @@
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: 500;
-  /* color: var(--mainTxtColor); */
   letter-spacing: 2px;
 }
 
@@ -60,7 +53,6 @@
   padding: 1rem;
   width: 10rem;
   height: 10rem;
-  /* color: white; */
   font-size: 2rem;
   font-weight: 500;
   cursor: pointer;
@@ -80,32 +72,25 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(auto-fill, 1fr);
-  /* grid-column-gap: 10px; */
   grid-row-gap: 40px;
   justify-content: space-between;
   margin-top: 0rem;
   height: auto;
   padding-bottom: 5rem;
-  /* background-color: aqua; */
-  /* grid-row-gap: 0px; */
 }
 
 .techstack__item-wrapper {
   height: 100%;
   width: 100%;
-  /* background-color: rgb(55, 134, 134); */
   justify-content: center;
-  /* justify-content: space-between; */
   align-items: center;
   text-align: center;
-  /* background-color: violet; */
   border: 0.5px solid rgb(60, 60, 60);
   padding: 1rem 0;
   border-radius: 5px;
 }
 
 .techstack__item-title {
-  /* background-color: red; */
   height: auto;
   font-size: 2rem;
   z-index: 1000;
@@ -113,11 +98,6 @@
   display: flex;
   flex-direction: column;
   letter-spacing: 1.5px;
-  /* justify-content: flex-start;
-  align-items: flex-start; */
-  /* justify-content: center;
-  align-items: center;
-  text-align: center; */
 }
 
 .techstack__styled-comp,
@@ -144,7 +124,6 @@
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: -0.5rem;
-  /* background-color: red; */
   height: 50%;
 }
 
@@ -183,8 +162,6 @@
 @media screen and (max-width: 768px) {
   .techstack__wrapper {
     display: flex;
-
-    /* margin: 0 2rem; */
     flex-direction: column;
     margin: 0rem 2rem;
     justify-content: flex-start;
@@ -204,7 +181,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: start;
-    /* background-color: red; */
   }
 
   .techstack__list-area {
@@ -223,7 +199,6 @@
   }
 
   .techstack__wrapper {
-    /* padding-top: 0rem; */
   }
 
   .techstack__list-area {
