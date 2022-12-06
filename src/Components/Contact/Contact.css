@@ -15,8 +15,6 @@
   height: 100%;
   margin: 0 20rem;
   max-width: 1300px;
-  /* justify-content: center;
-  align-items: center; */
   padding-bottom: 6rem;
   padding-top: 0rem;
 }
@@ -31,7 +29,6 @@
   position: relative;
   padding-right: 5rem;
   padding-bottom: 5rem;
-  /* background-color: red; */
 }
 
 .contact__divider-line {
@@ -45,14 +42,12 @@
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: 500;
-  /* color: var(--mainTxtColor); */
   letter-spacing: 2px;
   padding-bottom: 2rem;
 }
 
 .contact__subtext {
   font-size: 2rem;
-
   padding-bottom: 2em;
 }
 
@@ -69,7 +64,6 @@
   width: 12rem;
   color: black;
   font-size: 2rem;
-  /* background-color: green; */
 }
 
 .contact__icons {
@@ -109,7 +103,6 @@
   display: flex;
   justify-content: flex-end;
   padding-top: 8rem;
-  /* background-color: red; */
 }
 
 .contact__linkedin-item:hover,
@@ -197,7 +190,6 @@ label {
   .contact__container {
     padding-top: 10rem;
     padding-bottom: 5rem;
-    /* background-color: red; */
   }
   .contact__wrapper {
     display: flex;
@@ -205,8 +197,6 @@ label {
     height: 100%;
     margin: 0 20rem;
     max-width: 1300px;
-    /* justify-content: center;
-    align-items: center; */
     padding-bottom: 6rem;
     padding-top: 0rem;
   }
@@ -240,14 +230,12 @@ label {
     position: relative;
     padding-right: 2rem;
     padding-bottom: 5rem;
-    /* background-color: red; */
   }
 
   .contact__item-name {
     width: 8.5rem;
 
     font-size: 1.8rem;
-    /* background-color: green; */
   }
 
   .contact__items {
