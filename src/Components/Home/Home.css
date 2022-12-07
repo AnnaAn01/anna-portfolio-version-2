@@ -36,13 +36,6 @@
 }
 
 .homepage__intro-title {
-  /* position: absolute;
-  font-size: 5rem;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: var(--mainTxtColor);
-  letter-spacing: 2px; */
-  /* until here previous code */
   display: flex;
   position: relative;
   font-size: 4rem;
@@ -56,13 +49,7 @@
 }
 
 .homepage__intro-description {
-  /* position: absolute;
-  margin-top: 16rem;
-  font-size: 1.9rem; */
-  /* until here previous code */
-  /* background-color: green; */
   position: relative;
-  /* margin-top: 16rem; */
   margin-top: 2rem;
   font-size: 1.9rem;
   text-align: justify;
