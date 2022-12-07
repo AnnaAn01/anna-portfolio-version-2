@@ -7,8 +7,6 @@
   padding-bottom: 2rem;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(var(--mainBgColor) 97%, var(--mainTxtColor)); */
-  /* background-blend-mode: screen; */
 }
 
 .homepage__wrapper {
@@ -17,22 +15,15 @@
   height: 100%;
   margin: 0 20rem;
   max-width: 1300px;
-  /* justify-content: center;
-  align-items: center; */
   padding-bottom: 0rem;
   margin-top: 3rem;
-  /* background-color: blue; */
-  /* margin-bottom: -2rem; */
 }
 
 .homepage__columns {
   flex: 50%;
-  /* background-color: green; */
 }
 
 .homepage__text-area {
-  /* background-color: rgb(238, 192, 192); */
-  /* background-color: yellow; */
   height: 100%;
   padding-right: 2rem;
 }
