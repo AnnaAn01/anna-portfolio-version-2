@@ -168,12 +168,10 @@
   }
 
   .homepage__text-area {
-    /* background-color: rgb(238, 192, 192); */
     width: 100%;
   }
 
   .homepage__divider-line {
-    /* display: none; */
     margin: 5rem 0 0rem 0;
   }
 
@@ -185,7 +183,6 @@
   .homepage__intro-description {
     position: relative;
     margin: 0;
-    /* background-color: red; */
   }
 
   .homepage__follow-btn {
