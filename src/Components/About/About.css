@@ -18,11 +18,9 @@
   align-items: center;
   padding-bottom: 5rem;
   padding-top: 0rem;
-  /* background-color: yellow; */
 }
 
 .about__columns {
-  /* margin-top: 7rem; */
   flex: 50%;
 }
 

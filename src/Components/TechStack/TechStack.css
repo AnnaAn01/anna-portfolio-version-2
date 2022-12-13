@@ -198,9 +198,6 @@
     padding-top: 5rem;
   }
 
-  .techstack__wrapper {
-  }
-
   .techstack__list-area {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 0rem;
