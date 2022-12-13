@@ -62,7 +62,6 @@
 
   background-color: var(--mainBgColor);
   color: black;
-  /* background-color: #266150; */
   padding: 0.7rem 2.5rem;
 
   font-size: 1.8rem;
@@ -79,9 +78,6 @@
 }
 
 .about__img-area {
-  /* display: flex;
-  position: relative; */
-  /* background-color: red; */
   display: flex;
   position: relative;
   flex-direction: column;
