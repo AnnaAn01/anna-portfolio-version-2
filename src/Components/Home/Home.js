@@ -3,7 +3,6 @@ import "./Home.css";
 import HomeImg from "../../img/portfolio-image-sample.png";
 import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-import TechStack from "../TechStack/TechStack";
 
 const Home = () => {
   return (
