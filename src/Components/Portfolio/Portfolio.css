@@ -26,11 +26,9 @@
 .portfolio__columns {
   flex: 50%;
   flex-direction: row;
-  /* border: 1px solid rgb(109, 109, 109); */
   box-shadow: 0 0 0 1px rgba(109, 109, 109, 0.5);
   border-radius: 2px;
   margin-bottom: 3rem;
-  /* background-color: green; */
 }
 
 .portfolio__divider-line {
