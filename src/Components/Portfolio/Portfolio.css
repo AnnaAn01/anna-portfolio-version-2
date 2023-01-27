@@ -39,16 +39,6 @@
 }
 
 .portfolio__intro-title {
-  /* display: flex;
-  flex-direction: row;
-  font-size: 4rem;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: var(--mainTxtColor);
-  letter-spacing: 2px;
-  padding-bottom: 2rem;
-  margin: 0 0rem; */
-
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: 500;
